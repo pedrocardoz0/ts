@@ -30,7 +30,7 @@ function verifyMaus(book: OptionsBooks): book is Maus {
 
 function showAuthor(book: OptionsBooks): string {
     if (verifyAkira(book)) {
-        return "Katsuhiro otomo";
+        return "Katsuhiro Otomo";
     }
 
     if (verifyAyako(book)) {
